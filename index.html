@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Seu Site de Cursos e Livros</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #6a0dad;
+            color: #fff;
+            padding: 20px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+        }
+        nav a {
+            color: #fff;
+            padding: 14px 20px;
+            text-decoration: none;
+            text-align: center;
+        }
+        nav a:hover {
+            background-color: #575757;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .main {
+            margin-top: 20px;
+        }
+        .section {
+            margin-bottom: 20px;
+            padding: 20px;
+            background: #fff;
+            border-radius: 8px;
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        .form-group label {
+            display: block;
+            margin-bottom: 5px;
+        }
+        .form-group input, .form-group textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        .form-group button {
+            background-color: #6a0dad;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        .form-group button:hover {
+            background-color: #5b009f;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Bem-vindo ao Seu Site de Cursos e Livros</h1>
+</header>
+
+<nav>
+    <a href="#home">Início</a>
+    <a href="#about">Sobre</a>
+    <a href="#courses">Cursos</a>
+    <a href="#books">Livros e eBooks</a>
+    <a href="#contact">Contato</a>
+    <a href="#blog">Blog</a>
+</nav>
+
+<div class="container">
+    <div id="home" class="section">
+        <h2>Início</h2>
+        <p>Bem-vindo à nossa plataforma de cursos online e loja de livros e eBooks. Aqui você encontrará uma variedade de cursos para aprimorar suas habilidades e uma seleção de livros e eBooks para complementar seu aprendizado.</p>
+    </div>
+
+    <div id="about" class="section">
+        <h2>Sobre</h2>
+        <p>Somos uma plataforma dedicada a oferecer cursos de alta qualidade e recursos educativos. Nossa missão é proporcionar conhecimento acessível a todos, em qualquer lugar.</p>
+    </div>
+
+    <div id="courses" class="section">
+        <h2>Cursos</h2>
+        <p>Aqui você encontrará uma lista de nossos cursos online disponíveis.</p>
+        <!-- Adicione aqui a lista de cursos -->
+    </div>
+
+    <div id="books" class="section">
+        <h2>Livros e eBooks</h2>
+        <p>Confira nossa seleção de livros e eBooks disponíveis para compra.</p>
+        <!-- Adicione aqui a lista de livros e eBooks -->
+    </div>
+
+    <div id="contact" class="section">
+        <h2>Contato</h2>
+        <form>
+            <div class="form-group">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+            </div>
+            <div class="form-group">
+                <button type="submit">Enviar</button>
+            </div>
+        </form>
+    </div>
+
+    <div id="blog" class="section">
+        <h2>Blog</h2>
+        <p>Confira nossos artigos e publicações mais recentes.</p>
+        <!-- Adicione aqui as postagens do blog -->
+    </div>
+
+    <div class="section">
+        <h2>Galeria</h2>
+        <p>Veja algumas imagens relacionadas aos nossos cursos e produtos.</p>
+        <!-- Adicione aqui a galeria de imagens -->
+    </div>
+
+    <div class="section">
+        <h2>Links</h2>
+        <p>Conecte-se conosco nas redes sociais:</p>
+        <ul>
+            <li><a href="https://www.linkedin.com" target="_blank">LinkedIn</a></li>
+            <li><a href="https://www.youtube.com" target="_blank">YouTube</a></li>
+            <!-- Adicione outros links de redes sociais aqui -->
+        </ul>
+    </div>
+</div>
+
+<footer>
+    <p>&copy; 2024 Seu Site de Cursos e Livros</p>
+</footer>
+
+</body>
+</html>
